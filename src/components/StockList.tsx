@@ -27,7 +27,7 @@ const StockList = () => {
   const fetchStocks = async () => {
     setLoading(true);
     const uri =
-      'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo';
+      'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=RIBXT3XYLI69PC0Q';
     const response = await fetch(uri);
     const data = await response.json();
 
