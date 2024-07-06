@@ -1,1 +1,5 @@
-# Quick stock listing code
+## Quick stock listing code
+
+In the project directory, you can run:
+
+### `npm start`
